@@ -53,15 +53,17 @@ public class CategoryFragment extends Fragment {
         });
 
         skippede.setOnClickListener(v -> {
-            String title = "Hoping for Your Positive Response 😇";
-            new Handler().postDelayed(() -> {
-                Uri uri = Uri.parse("https://drive.usercontent.google.com/download?id=1lAXqfhWK8vLRSpkAme-00EjsunXYwDlZ&export=download&authuser=0&confirm=t&uuid=b8e33bbf-f66e-4264-9fc3-a2c99e6a5a8c&at=APZUnTVv6BoeojLNbeMW0aT6pMHB:1701246817296");
-                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-                startActivity(intent);
-
-                // Show the string text (you can customize this part based on how you want to display the text)
-                Toast.makeText(getContext(), title, Toast.LENGTH_SHORT).show();
-            }, ANIMATION_DELAY); // Delay for showing the text
+            if (isAdded()) {
+                String title = "Hoping for Your Positive Response 😇";
+                new Handler().postDelayed(() -> {
+                    Uri uri = Uri.parse("https://drive.usercontent.google.com/download?id=1lAXqfhWK8vLRSpkAme-00EjsunXYwDlZ&export=download&authuser=0&confirm=t&uuid=b8e33bbf-f66e-4264-9fc3-a2c99e6a5a8c&at=APZUnTVv6BoeojLNbeMW0aT6pMHB:1701246817296");
+                    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                    if (getContext() != null) {
+                        startActivity(intent);
+                        Toast.makeText(getContext(), title, Toast.LENGTH_SHORT).show();
+                    }
+                }, ANIMATION_DELAY); // Delay for showing the text
+            }
         });
 
         animateTextWithDelay(0);

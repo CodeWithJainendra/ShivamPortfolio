@@ -96,7 +96,7 @@ public class HomeFragment extends Fragment {
 
         // Set OnClickListener for each button
         if (socialone != null) {
-            socialone.setOnClickListener(getSocialOnClickListener("hhttps://www.facebook.com/SHIVAMisKHUSH"));
+            socialone.setOnClickListener(getSocialOnClickListener("https://www.facebook.com/SHIVAMisKHUSH"));
         }
         if (socialtwo != null) {
             socialtwo.setOnClickListener(getSocialOnClickListener("https://instagram.com/cyrusdemon7?igshid=MzMyNGUyNmU2YQ=="));

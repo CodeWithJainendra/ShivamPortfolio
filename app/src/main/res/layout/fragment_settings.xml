@@ -328,7 +328,7 @@
                         android:fontFamily="sans-serif-light"
                         android:paddingLeft="16dp"
                         android:paddingBottom="10dp"
-                        android:text="Central University of Haryana \n\n                  :\n      (2022 - 2024)"
+                        android:text="Indian Institute of Technology Kanpur \n\n                  :\n      (2022 - 2024)"
                         android:textColor="@color/hint_textcolor"
                         android:textSize="14sp"
                         android:textStyle="bold">
