@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Fragment.SettingsFragment">
+
+    <RelativeLayout
+        android:id="@+id/mainLL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/nameTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginStart="5dp"
+            android:text="Education"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="200dp"
+            android:layout_height="1dp"
+            android:gravity="center"
+            android:layout_below="@id/nameTv"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#B8B8B8" />
+
+        <View
+            android:layout_width="200dp"
+            android:layout_height="1dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/nameTv"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#B8B8B8" />
+
+
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@id/mainLL"
+        android:layout_centerInParent="true"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_marginBottom="10dp">
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/allProductsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:checkable="true"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardBackgroundColor="@color/home_background"
+                app:cardCornerRadius="15dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif-light"
+                        android:padding="10dp"
+                        android:text="HIGH SCHOOLING"
+                        android:textAlignment="center"
+                        android:textColor="@color/pink"
+                        android:textSize="15sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/kvtext"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:paddingLeft="16dp"
+                        android:paddingBottom="10dp"
+                        android:text="Kendriya Vidyalaya IIT Kanpur \n\n                      :\n          (2005 - 2016)"
+                        android:textColor="@color/hint_textcolor"
+                        android:textSize="14sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profileImage"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_alignParentEnd="true"
+                       android:nextFocusRight="@id/kvtext"
+                        android:layout_marginEnd="15dp"
+                        android:src="@drawable/kvlogo"
+                        app:civ_border_color="@color/white"
+                        app:civ_border_width="2dp" />
+
+</RelativeLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:gravity="end"
+                        android:id="@+id/readMoreTextView"
+                        android:paddingEnd="20dp"
+                        android:layout_height="wrap_content"
+                        android:text="Read More..."
+                        android:textSize="11dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/purple_700"/>
+
+
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/meatsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_below="@id/allProductsBtn"
+                android:checkable="true"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardBackgroundColor="@color/home_background"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Media -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif-light"
+                        android:padding="10dp"
+                        android:text="INTERMEDIATE"
+                        android:textAlignment="center"
+                        android:textColor="@color/pink"
+                        android:textSize="15sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:paddingLeft="16dp"
+                        android:paddingBottom="10dp"
+                        android:text="Wendy High School \n\n                  :\n      (2016 - 2018)"
+                        android:textColor="@color/hint_textcolor"
+                        android:textSize="14sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/isc"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentEnd="true"
+                            android:nextFocusRight="@id/kvtext"
+                            android:layout_marginEnd="15dp"
+                            android:src="@drawable/isc"
+                            app:civ_border_color="@color/white"
+                            app:civ_border_width="2dp" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:id="@+id/readMoreTextViewsecond"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="end"
+                        android:paddingEnd="20dp"
+                        android:text="Read More..."
+                        android:textColor="@color/purple_700"
+                        android:textSize="11dp" />
+
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/graduation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_below="@id/meatsBtn"
+                android:checkable="true"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardBackgroundColor="@color/home_background"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Media -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif-light"
+                        android:padding="10dp"
+                        android:text="GRADUATION"
+                        android:textAlignment="center"
+                        android:textColor="@color/pink"
+                        android:textSize="15sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:paddingLeft="16dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/collagename"
+                        android:textColor="@color/hint_textcolor"
+                        android:textSize="14sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/graduationn"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentEnd="true"
+                            android:nextFocusRight="@id/kvtext"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginTop="20dp"
+                            android:src="@drawable/graduation"
+                            app:civ_border_color="@color/white"
+                            app:civ_border_width="2dp" />
+                    </RelativeLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:gravity="end"
+                        android:paddingEnd="20dp"
+                        android:id="@+id/readMoreTextViewThree"
+                        android:layout_height="wrap_content"
+                        android:text="Read More..."
+                        android:textSize="11dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/purple_700"/>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/masters"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/graduation"
+                android:layout_margin="8dp"
+                android:checkable="true"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardBackgroundColor="@color/home_background"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Media -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif-light"
+                        android:padding="10dp"
+                        android:text="POST GRADUATION"
+                        android:textAlignment="center"
+                        android:textColor="@color/pink"
+                        android:textSize="15sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:paddingLeft="16dp"
+                        android:paddingBottom="10dp"
+                        android:text="Central University of Haryana \n\n                  :\n      (2022 - 2024)"
+                        android:textColor="@color/hint_textcolor"
+                        android:textSize="14sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/masterss"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentEnd="true"
+                            android:nextFocusRight="@id/kvtext"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginTop="20dp"
+                            android:src="@drawable/masters"
+                            app:civ_border_color="@color/white"
+                            app:civ_border_width="2dp" />
+
+                    </RelativeLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:gravity="end"
+                        android:paddingEnd="20dp"
+                        android:id="@+id/readMoreTextViewFour"
+                        android:layout_height="wrap_content"
+                        android:text="Read More..."
+                        android:textSize="11dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/purple_700"/>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/hacking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/masters"
+                android:layout_margin="8dp"
+                android:checkable="true"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardBackgroundColor="@color/home_background"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Media -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif-light"
+                        android:padding="10dp"
+                        android:text="HACKING"
+                        android:textAlignment="center"
+                        android:textColor="@color/pink"
+                        android:textSize="15sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:paddingLeft="16dp"
+                        android:paddingBottom="10dp"
+                        android:text="Ethical Hacking Using Python \n\n                  :\n      "
+                        android:textColor="@color/hint_textcolor"
+                        android:textSize="14sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/hackingg"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentEnd="true"
+                            android:nextFocusRight="@id/kvtext"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginTop="20dp"
+                            android:src="@drawable/hacking"
+                            app:civ_border_color="@color/white"
+                            app:civ_border_width="2dp" />
+                    </RelativeLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:gravity="end"
+                        android:paddingEnd="20dp"
+                        android:id="@+id/readMoreTextViewFive"
+                        android:layout_height="wrap_content"
+                        android:text="Read More..."
+                        android:textSize="11dp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/purple_700"/>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

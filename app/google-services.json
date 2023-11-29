@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "799535223854",
+    "project_id": "portfolio-70b59",
+    "storage_bucket": "portfolio-70b59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799535223854:android:1c3a45b80c60b26a6f3bbf",
+        "android_client_info": {
+          "package_name": "com.shivamsingh.portfolio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiZ_Uav66thxNGAY6VE_OVr302gZHfH30"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

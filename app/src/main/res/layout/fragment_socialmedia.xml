@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linearrbar"
+            android:id="@+id/socialone"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:src="@drawable/facebook"
+            android:backgroundTint="@color/grey"
+            android:foregroundGravity="center">
+
+        </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linearrbar"
+            android:layout_margin="5dp"
+            android:id="@+id/socialtwo"
+            android:src="@drawable/instagram"
+            android:backgroundTint="@color/grey"
+            android:foregroundGravity="center">
+
+        </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linearrbar"
+            android:layout_margin="5dp"
+            android:id="@+id/socialthree"
+            android:src="@drawable/linkedin"
+            android:backgroundTint="@color/grey"
+            android:foregroundGravity="center">
+
+        </com.google.android.material.floatingactionbutton.FloatingActionButton>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linearrbar"
+            android:layout_margin="5dp"
+            android:id="@+id/socialfour"
+            android:src="@drawable/whatsapp"
+            android:backgroundTint="@color/grey"
+            android:foregroundGravity="center">
+
+        </com.google.android.material.floatingactionbutton.FloatingActionButton>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linearrbar"
+            android:layout_margin="5dp"
+            android:id="@+id/socialfive"
+            android:src="@drawable/github"
+            android:backgroundTint="@color/grey"
+            android:foregroundGravity="center">
+
+        </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+    </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
