@@ -205,7 +205,7 @@
             android:layout_below="@id/toolbar"
             android:layout_centerInParent="true"
             android:src="@drawable/user"
-            android:backgroundTint="#484444"
+            android:backgroundTint="@color/grey"
             android:foregroundGravity="center">
 
         </com.google.android.material.floatingactionbutton.FloatingActionButton>

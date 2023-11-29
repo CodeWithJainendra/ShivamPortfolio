@@ -1,4 +1,4 @@
-package com.shivamsingh.portfolio.SliderData;
+package com.shivamsingh.portfolioapp.SliderData;
 
 public class SliderData {
     private String imgUrl;

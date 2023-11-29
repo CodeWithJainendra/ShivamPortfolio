@@ -1,4 +1,4 @@
-package com.shivamsingh.portfolio;
+package com.shivamsingh.portfolioapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -9,10 +9,10 @@ import android.view.View;
 import android.view.WindowManager;
 
 import com.ismaeldivita.chipnavigation.ChipNavigationBar;
-import com.shivamsingh.portfolio.Fragment.CategoryFragment;
-import com.shivamsingh.portfolio.Fragment.HomeFragment;
-import com.shivamsingh.portfolio.Fragment.SettingsFragment;
-import com.shivamsingh.portfolio.databinding.ActivityMainBinding;
+import com.shivamsingh.portfolioapp.Fragment.CategoryFragment;
+import com.shivamsingh.portfolioapp.Fragment.HomeFragment;
+import com.shivamsingh.portfolioapp.Fragment.SettingsFragment;
+import com.shivamsingh.portfolioapp.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 

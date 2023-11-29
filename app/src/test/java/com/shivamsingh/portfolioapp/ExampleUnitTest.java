@@ -1,4 +1,4 @@
-package com.shivamsingh.portfolio;
+package com.shivamsingh.portfolioapp;
 
 import org.junit.Test;
 

@@ -95,7 +95,7 @@
             android:textSize="13dp"
             android:textStyle="bold"/>
 
-    <com.nitish.typewriterview.TypeWriterView
+    <com.shivamsingh.portfolioapp.SliderData.TypeWriter
         android:id="@+id/typeWriterView"
         android:layout_width="300dp"
         android:textColor="@color/red"

@@ -1,4 +1,4 @@
-package com.shivamsingh.portfolio.Fragment;
+package com.shivamsingh.portfolioapp.Fragment;
 
 import android.app.Dialog;
 import android.os.Bundle;
@@ -10,8 +10,8 @@ import android.widget.TextView;
 
 import androidx.fragment.app.Fragment;
 
-import com.shivamsingh.portfolio.R;
-import com.shivamsingh.portfolio.databinding.FragmentSettingsBinding;
+import com.shivamsingh.portfolioapp.R;
+import com.shivamsingh.portfolioapp.databinding.FragmentSettingsBinding;
 
 public class SettingsFragment extends Fragment {
 

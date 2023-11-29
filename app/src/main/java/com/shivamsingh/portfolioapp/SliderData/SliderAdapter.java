@@ -1,4 +1,4 @@
-package com.shivamsingh.portfolio.SliderData;
+package com.shivamsingh.portfolioapp.SliderData;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,7 +8,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.shivamsingh.portfolio.R;
+import com.shivamsingh.portfolioapp.R;
 import com.smarteist.autoimageslider.SliderViewAdapter;
 
 import java.util.List;

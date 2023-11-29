@@ -1,4 +1,4 @@
-package com.shivamsingh.portfolio.Fragment;
+package com.shivamsingh.portfolioapp.Fragment;
 
 import android.app.Dialog;
 import android.content.Intent;
@@ -11,27 +11,18 @@ import androidx.fragment.app.Fragment;
 
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.shivamsingh.portfolio.R;
-import com.shivamsingh.portfolio.SliderData.SliderAdapter;
-import com.shivamsingh.portfolio.SliderData.SliderData;
-import com.shivamsingh.portfolio.databinding.FragmentHomeBinding;
-import com.shivamsingh.portfolio.databinding.FragmentSettingsBinding;
+import com.shivamsingh.portfolioapp.R;
+import com.shivamsingh.portfolioapp.SliderData.SliderAdapter;
+import com.shivamsingh.portfolioapp.SliderData.SliderData;
+import com.shivamsingh.portfolioapp.databinding.FragmentHomeBinding;
+import com.shivamsingh.portfolioapp.databinding.FragmentSettingsBinding;
 import com.smarteist.autoimageslider.SliderView;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.TextView;
-
-import androidx.fragment.app.Fragment;
-import com.shivamsingh.portfolio.databinding.FragmentHomeBinding;
-import java.util.ArrayList;
-import java.util.List;
 
 public class HomeFragment extends Fragment {
 
