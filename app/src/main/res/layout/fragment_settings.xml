@@ -120,13 +120,13 @@
 </RelativeLayout>
 
                     <TextView
+                        android:id="@+id/readMoreTextView"
                         android:layout_width="match_parent"
                         android:gravity="end"
-                        android:id="@+id/readMoreTextView"
                         android:paddingEnd="20dp"
                         android:layout_height="wrap_content"
-                        android:text="Read More..."
-                        android:textSize="11dp"
+                        android:text="@string/read_more_skills"
+                        android:textSize="11sp"
                         android:layout_margin="10dp"
                         android:textColor="@color/purple_700"/>
 
@@ -196,19 +196,16 @@
                     </RelativeLayout>
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
                         android:id="@+id/readMoreTextViewsecond"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginEnd="10dp"
-                        android:layout_marginBottom="10dp"
+                        android:layout_width="match_parent"
                         android:gravity="end"
                         android:paddingEnd="20dp"
-                        android:text="Read More..."
-                        android:textColor="@color/purple_700"
-                        android:textSize="11dp" />
+                        android:layout_height="wrap_content"
+                        android:text="@string/read_more_high_school"
+                        android:textSize="11sp"
+                        android:layout_margin="10dp"
+                        android:textColor="@color/purple_700"/>
+
 
 
                 </LinearLayout>
@@ -274,13 +271,13 @@
                             app:civ_border_width="2dp" />
                     </RelativeLayout>
                     <TextView
+                        android:id="@+id/readMoreTextViewThree"
                         android:layout_width="match_parent"
                         android:gravity="end"
                         android:paddingEnd="20dp"
-                        android:id="@+id/readMoreTextViewThree"
                         android:layout_height="wrap_content"
-                        android:text="Read More..."
-                        android:textSize="11dp"
+                        android:text="@string/read_more_graduation"
+                        android:textSize="11sp"
                         android:layout_margin="10dp"
                         android:textColor="@color/purple_700"/>
 
@@ -328,7 +325,7 @@
                         android:fontFamily="sans-serif-light"
                         android:paddingLeft="16dp"
                         android:paddingBottom="10dp"
-                        android:text="Indian Institute of Technology Kanpur \n\n                  :\n      (2022 - 2024)"
+                        android:text="Central University of Haryana \n\n                  :\n      (2022 - 2024)"
                         android:textColor="@color/hint_textcolor"
                         android:textSize="14sp"
                         android:textStyle="bold">
@@ -349,15 +346,16 @@
 
                     </RelativeLayout>
                     <TextView
+                        android:id="@+id/readMoreTextViewFour"
                         android:layout_width="match_parent"
                         android:gravity="end"
                         android:paddingEnd="20dp"
-                        android:id="@+id/readMoreTextViewFour"
                         android:layout_height="wrap_content"
-                        android:text="Read More..."
-                        android:textSize="11dp"
+                        android:text="@string/read_more_post_graduation"
+                        android:textSize="11sp"
                         android:layout_margin="10dp"
                         android:textColor="@color/purple_700"/>
+
 
                 </LinearLayout>
 
@@ -422,13 +420,13 @@
                             app:civ_border_width="2dp" />
                     </RelativeLayout>
                     <TextView
+                        android:id="@+id/readMoreTextViewFive"
                         android:layout_width="match_parent"
                         android:gravity="end"
                         android:paddingEnd="20dp"
-                        android:id="@+id/readMoreTextViewFive"
                         android:layout_height="wrap_content"
-                        android:text="Read More..."
-                        android:textSize="11dp"
+                        android:text="@string/read_more_hacking"
+                        android:textSize="11sp"
                         android:layout_margin="10dp"
                         android:textColor="@color/purple_700"/>
                 </LinearLayout>

@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="skills_description">Skills</string>
+    <string name="home_description">Home</string>
+    <string name="education_description">Education</string>
+    <!-- Inside your strings.xml -->
+    <string name="read_more_skills">Read More...</string>
+    <string name="read_more_high_school">Read More...</string>
+    <string name="read_more_intermediate">Read More...</string>
+    <string name="read_more_graduation">Read More...</string>
+    <string name="read_more_post_graduation">RRead More...</string>
+    <string name="read_more_hacking">Read More...</string>
+
     <string name="maintextt">Skilled M.Tech student specializing in Android app development and ethical hacking. Proficient in creating user-friendly applications with a focus on security. Valuable hands-on experience in software development, testing, and problem-solving. Dedicated to staying updated with trends and delivering impactful applications. Strong communicator and collaborator.</string>
 </resources>

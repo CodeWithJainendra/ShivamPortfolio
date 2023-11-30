@@ -200,13 +200,14 @@
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/floatingbutton"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:layout_below="@id/toolbar"
             android:layout_centerInParent="true"
-            android:src="@drawable/user"
             android:backgroundTint="@color/grey"
-            android:foregroundGravity="center">
+            android:contentDescription="About ME"
+            android:foregroundGravity="center"
+            android:src="@drawable/user">
 
         </com.google.android.material.floatingactionbutton.FloatingActionButton>
 
@@ -508,6 +509,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/linearrbar"
+                android:contentDescription="Social Media "
                 android:id="@+id/floationgsocial"
                 android:src="@drawable/socialmedia"
                 android:backgroundTint="@color/grey"
